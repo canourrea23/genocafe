@@ -11,9 +11,9 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 from pathlib import Path
 import django_heroku
-import os
 
-SECRET_KEY = os.getenv("SECRET_KEY")
+
+SECRET_KEY = "%35!s5k9 & g9!0)$0d) & n@r2))@1ang8i)r-^_ @!gzvxu=m2js -"
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
