@@ -75,7 +75,7 @@ class BlogView(viewsets.ModelViewSet):
 
 
 class UserView(viewsets.ModelViewSet):
-    serializers_class = UserSerializer
+    serializer_class = UserSerializer
     queryset = User.objects.all()
 
 # class UserSerializer(serializers.ModelSerializer):

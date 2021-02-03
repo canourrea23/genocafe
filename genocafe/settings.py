@@ -13,8 +13,6 @@ from pathlib import Path
 import django_heroku
 
 
-SECRET_KEY = "%35!s5k9 & g9!0)$0d) & n@r2))@1ang8i)r-^_ @!gzvxu=m2js -"
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
@@ -24,10 +22,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-# SECRET_KEY = '%35!s5k9&g9!0)$0d)&n@r2))@1ang8i)r-^_@!gzvxu=m2js-'
+SECRET_KEY = '%35!s5k9&g9!0)$0d)&n@r2))@1ang8i)r-^_@!gzvxu=m2js-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -49,7 +47,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'main_app',
-    # 'django_extensions',
+    'django_extensions',
     # 'django.contrib.sites',
     # 'allauth',
     # 'allauth.account',
