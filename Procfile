@@ -1,2 +1,1 @@
-web: gunicorn genocafe.wsgi
-release: python3 manage.py migrate
+web: gunicorn genocafe.wsgi --log-file -
