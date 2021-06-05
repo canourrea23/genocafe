@@ -50,7 +50,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'main_app',
     'django_extensions',
-    'django.contrib.sites',
+    # 'django.contrib.sites',
     # 'allauth',
     # 'allauth.account',
     # 'allauth.socialaccount',
