@@ -50,7 +50,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'main_app',
     'django_extensions',
-    # 'django.contrib.sites',
+    'django.contrib.sites',
     # 'allauth',
     # 'allauth.account',
     # 'allauth.socialaccount',
@@ -61,6 +61,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
     'corsheaders',
     'rest_framework',
 ]
@@ -68,7 +69,8 @@ INSTALLED_APPS = [
 # SITE_ID = 1
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8000",
+    "http://localhost:8000", 
+    "*",
 ]
 
 CORS_ALLOW_METHODS = [
