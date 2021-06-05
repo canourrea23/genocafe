@@ -14,11 +14,11 @@ router.register(r'blog', views.BlogView, 'blog')
 router.register(r'user', views.UserView, 'user')
 
 urlpatterns = [
-    # path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
     # url(r'api/users^$', views.UserCreate.as_view(), name='main_app-create'),
     # url(r'^users/register', 'main_app.views.create_auth'),
-    # path('login/', views.login_view, name="login"),
-    # path('logout/', views.logout_view, name="logout"),
-    # path('signup/', views.signup, name="signup")
+    path('login/', views.login_view, name="login"),
+    path('logout/', views.logout_view, name="logout"),
+    path('signup/', views.signup, name="signup")
 ]
