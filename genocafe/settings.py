@@ -67,9 +67,9 @@ INSTALLED_APPS = [
 
 # SITE_ID = 1
 
-CORS_ALLOWED_ORIGINS = [
-    "*",
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "*",
+# ]
 CORS_ORIGIN_ALLOW_ALL = true
 
 CORS_ALLOW_METHODS = [
