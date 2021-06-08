@@ -1,0 +1,1 @@
+web: gunicorn genocafe.wsgi --log-file -
